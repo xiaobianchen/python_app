@@ -5,6 +5,7 @@ __author__ = 'chenxiaobian'
 #图片处理
 
 import sys
+
 from PIL import Image
 img = Image.open('/Users/chenxiaobian/Downloads/863334_100.jpg')
 print(img.format,img.size,img.mode)
